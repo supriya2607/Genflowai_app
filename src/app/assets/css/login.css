@@ -1,0 +1,29 @@
+body{font-family: 'Poppins', sans-serif!important;background: #f3f3f394;}
+.container{max-width: 90%;margin: 0 auto;}
+.loginscreen, .otpscreen { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;width: 80%;display: flex;justify-content: center;align-items: center;flex-direction: column; }
+.loginlogo{width: 200px;margin-bottom: 2rem;}
+.loginlogo img{width: 100%;}
+.form-controls{width: 100%;margin-bottom: 1rem;}
+.form-controls input {text-align: left; border: 1px solid #ccc; border-radius: 5px; font-size: 15px; padding: 10px 8px;margin: 0 auto; margin-bottom: 1.5rem;width: 90%;}
+.form-controls input::placeholder{font-family: 'Poppins', sans-serif!important;font-size: 16px;}
+ .btns { background-color: #e29a60; border: none; color: #fff; cursor: pointer; display: flex; justify-content: center; padding: 10px 8px; transition: background-color .3s; width: 100%; border-radius: 30px; font-size: 16px; text-transform: uppercase;font-family: 'Poppins', sans-serif!important;letter-spacing: 1px;font-weight: 500;}
+.otpinput { outline: none; height: 43px; width:45px; border-radius: 10px; opacity: 1; background-color: rgb(255 255 255/var(--tw-bg-opacity)); text-align: center; font-size: 15px; line-height: 1.125rem; font-weight: 400; font-style: normal; --tw-text-opacity: 1; color: rgb(0 0 0/var(--tw-text-opacity)); border: 2px solid #ccc; }
+.otplist>div { display: flex; justify-content: space-around; width: 85%; margin-top: 2rem;}
+.resend { display: flex; align-items: center; justify-content: space-around; width: 80%;margin-bottom: 1rem;} 
+.resend p, .resend a { font-size: 14px;color:#000;margin: 0; margin-top: 1rem; margin-bottom: 1rem; }
+.re_enter{margin: 0;color: blue;}
+.otplist { width: 100%; display: flex; justify-content: center; }
+.userlist { list-style: none; padding: 0; margin-top:0} 
+.userlist li { padding: 12px 0; border-top: 1px solid #ccc; padding-left: 1rem;font-size: 15px; } 
+.userlist li i { padding-right: 1.5rem; }
+.headerbar { display: flex; align-items: center; } 
+.headerbar h4 { margin: 0; font-weight: 400; font-size: 18px; text-align: center; width: 100%; }
+.header { padding:1.5rem 1.5rem 2rem 1.5rem; background: #fff; box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.07); }
+.userinfo { display: flex; align-items: center; margin-top: 1.5rem; } 
+.user_dfault_img { width:80px; height: 75px; margin-right: 1rem;position: relative; } 
+.user_dfault_img img { width: 100%; height: 100%; border-radius: 10px; } 
+.userdlist h3 { margin: 0; font-weight: 600;font-size: 18px;} 
+.userdlist p { font-size: 14px;  margin: 0; margin-top: 5px; }
+.editicon { position: absolute; bottom: -6px; right: -6px; } 
+.editicon { color: #fff; width: 25px; height: 25px; border-radius: 50%; text-align: center; background: rgb(252,176,69); background: linear-gradient(90deg, rgba(252,176,69,1) 0%, rgb(131 58 180 / 84%) 58%, rgb(131 58 180 / 55%) 100%); }
+.editicon i { padding: 5px; }
