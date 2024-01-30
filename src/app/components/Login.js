@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from "react";
-import logo from "@/app/assets/images/logo.jpeg";
+import logo from "@/app/assets/images/logo.png";
 import PhoneInput from "react-phone-input-2";
 import 'react-phone-input-2/lib/style.css'
 import { ToastContainer, toast } from 'react-toastify';

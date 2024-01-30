@@ -4,7 +4,7 @@ body{font-family: 'Poppins', sans-serif!important;background: #f3f3f394;}
 .loginlogo{width: 200px;margin-bottom: 2rem;}
 .loginlogo img{width: 100%;}
 .form-controls{width: 100%;margin-bottom: 1rem;}
-.form-controls input {text-align: left; border: 1px solid #ccc; border-radius: 5px; font-size: 15px; padding: 10px 8px;margin: 0 auto; margin-bottom: 1.5rem;width: 90%;}
+.form-controls input {text-align: left; border: 1px solid #ccc; border-radius: 5px; font-size: 15px; padding: 10px 8px;margin: 0 auto; margin-bottom: 1.5rem;width: 100%!important;}
 .form-controls input::placeholder{font-family: 'Poppins', sans-serif!important;font-size: 16px;}
  .btns { background-color: #e29a60; border: none; color: #fff; cursor: pointer; display: flex; justify-content: center; padding: 10px 8px; transition: background-color .3s; width: 100%; border-radius: 30px; font-size: 16px; text-transform: uppercase;font-family: 'Poppins', sans-serif!important;letter-spacing: 1px;font-weight: 500;}
 .otpinput { outline: none; height: 43px; width:45px; border-radius: 10px; opacity: 1; background-color: rgb(255 255 255/var(--tw-bg-opacity)); text-align: center; font-size: 15px; line-height: 1.125rem; font-weight: 400; font-style: normal; --tw-text-opacity: 1; color: rgb(0 0 0/var(--tw-text-opacity)); border: 2px solid #ccc; }

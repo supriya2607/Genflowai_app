@@ -7,23 +7,39 @@ const pageData = {
 function customer (){
 return(
 <Adminlayout pageData={pageData}>
-    <table>
+<div style={{overflowX:"auto"}}>
+    <table className='table table-striped table-bordered '>
         <thead>
         <tr>
-        <th  style={{ width: "170px"}}>Name</th>
-        <th style={{ width: "61px"}}>Type</th>
-        <th style={{ width: "61px"}}>Animal</th>
-        <th style={{ width: "100px"}}>Mobile</th>
-        <th style={{ width: "61px"}}>Referral</th>
-        <th style={{ width: "180px"}}>Email</th>
-        <th style={{ width: "61px"}}>Destrict</th>
-        <th style={{ width: "61px"}}>State</th>
-        <th style={{ width: "61px"}}>Block</th>
-        <th style={{ width: "80px"}}>Pincode</th>
-        <th style={{ width: "61px"}}>Status</th>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Animal</th>
+        <th>Mobile</th>
+        <th>Referral</th>
+        <th>Email</th>
+        <th>Destrict</th>
+        <th>State</th>
+        <th>Block</th>
+        <th>Pincode</th>
+        <th>Status</th>
+        </tr>
+        
+        <tr>
+            <td>Suraj</td>
+            <td>Prime</td>
+            <td>7</td>
+            <td>7817009303</td>
+            <td>N/A</td>
+            <td>ss@gmail.com</td>
+            <td>Gorakhpur</td>
+            <td>Bihar (BR)</td>
+            <td>Khatima</td>
+            <td>262308</td>
+            <td><span className="badge badge-pill badge-lg badge-success font-weight-light">Active</span></td>
         </tr>
         </thead>
     </table>
+    </div>
 </Adminlayout>
 )
 }

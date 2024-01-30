@@ -1,4 +1,4 @@
-import Adminlayout from '@/app/admin/components/Adminlayout'
+import Sidebar from './components/Sidebar';
 
 const pageData = {
  type : 'Dashboard',
@@ -8,9 +8,8 @@ const pageData = {
 export default function sidebar() {
     return (
       <>
-        <Adminlayout pageData={pageData}>
-          <p>dtgfg</p>
-        </Adminlayout>
+        <Sidebar pageData={pageData}/>
+        <p>Dashboard content</p>
       </>
     );
   }
